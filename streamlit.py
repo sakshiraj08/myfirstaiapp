@@ -26,7 +26,7 @@ response = tweet_chain.invoke({"number": 5, "topic": "Wars in Middle East"})
 
 
 import streamlit as st
-st.header("Tweet Generator - Sakshi")
+st.header("Tweet Generator - SAKSHI")
 st.subheader("Generate tweets using Generative AI ")
 topic=st.text_input("Topic")
 number=st.number_input("Number of tweets", min_value=1, max_value=10, value=1,step=1)
